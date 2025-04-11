@@ -1,0 +1,49 @@
+/* new-styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e0e0; /* Grey background */
+    color: #333; /* Dark grey text */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff; /* White background for header */
+    padding: 2rem; /* Increased padding */
+}
+
+/* Main Content Styles */
+main {
+    padding: 2rem; /* Increased padding for main content */
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 2rem; /* Space between sections */
+    background-color: #ffffff; /* White background for sections */
+    padding: 1rem; /* Padding for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffffff; /* White background for footer */
+    padding: 1rem; /* Padding for footer */
+}
+
+/* Responsive Styles */
+@media (max-width: 640px) {
+    h1 {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+    h2 {
+        font-size: 1.25rem; /* Smaller font size for mobile */
+    }
+    p {
+        font-size: 0.875rem; /* Smaller font size for mobile */
+    }
+}
