@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #f8fafc; /* Light gray background */
+}
+
+/* Main Content Styles */
+main {
+    padding: 1rem; /* Padding for main content */
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 2rem; /* Space between sections */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8fafc; /* Light gray background */
+    padding: 1rem; /* Padding for footer */
+}
+
+/* Responsive Styles */
+@media (max-width: 640px) {
+    h1 {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+    h2 {
+        font-size: 1.25rem; /* Smaller font size for mobile */
+    }
+    p {
+        font-size: 0.875rem; /* Smaller font size for mobile */
+    }
+}
